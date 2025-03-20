@@ -1,0 +1,7 @@
+{
+  "packages": ["packages/*"],
+  "npmClient": "pnpm", 
+  "useWorkspaces": true,
+  "version": "independent",
+  "ignoreChanges": ["**/node_modules/**", "**/__snapshots__/**"]
+}
