@@ -64,7 +64,7 @@ const hasVSCode = shell.which('code');
  * @returns {Promise<{ lines: string[] }>} - 返回生成的类型定义行数组
  */
 async function generateTypes(url, typeName) {
-  const spinner = ora('🚀 正在获取API数据...').start();
+  const spinner = ora('🚀 Fetching API Data...').start();
   // 创建一个加载动画，提示用户正在获取 API 数据
 
   try {
