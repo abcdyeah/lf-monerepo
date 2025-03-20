@@ -1,0 +1,1 @@
+pnpm add @lf/libs -workspace

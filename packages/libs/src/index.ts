@@ -1,3 +1,4 @@
+
 export const formatCharToOmit = (
     input: string,
     props: {
