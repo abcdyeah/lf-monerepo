@@ -1,0 +1,12 @@
+{
+  "name": "@lf/hooks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@mui/material": "^6.4.8",
+    "@mui/styles": "^6.4.8",
+    "ahooks": "^3.8.4",
+    "react": "^19.0.0"
+  }
+}
