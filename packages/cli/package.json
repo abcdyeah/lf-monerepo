@@ -16,5 +16,6 @@
     "pnpm": "^10.6.3",
     "quicktype-core": "^23.0.78",
     "shelljs": "^0.8.5"
-  }
+  },
+  "gitHead": "1f1981bdc68a71b0c27d543fc5f675a0b75152bf"
 }

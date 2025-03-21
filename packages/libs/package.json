@@ -12,5 +12,6 @@
   "dependencies": {
     "i18next": "^24.2.3",
     "ramda": "^0.30.1"
-  }
+  },
+  "gitHead": "1f1981bdc68a71b0c27d543fc5f675a0b75152bf"
 }

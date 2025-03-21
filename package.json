@@ -14,5 +14,8 @@
   ],
   "scripts": {
     "bootstrap": "lerna bootstrap"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:4873"
   }
 }
