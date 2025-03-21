@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4](https://github.com/abcdyeah/lf-monerepo/compare/@lf/libs@1.0.3...@lf/libs@1.0.4) (2025-03-21)
+
+
+### Bug Fixes
+
+* update text ([ea00e88](https://github.com/abcdyeah/lf-monerepo/commit/ea00e886a9da9e28a48f6786a6eff26d541c8aab))
+
+
+
+
+
 ## [1.0.3](https://github.com/abcdyeah/lf-monerepo/compare/@lf/libs@1.0.1...@lf/libs@1.0.3) (2025-03-21)
 
 
