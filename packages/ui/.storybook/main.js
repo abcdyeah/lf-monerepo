@@ -12,22 +12,10 @@ function getAbsolutePath(value) {
 
 /** @type { import('@storybook/react-webpack5').StorybookConfig } */
 const config = {
-  // "stories": [
-  //   "../src/**/*.mdx",
-  //   "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
-  // ],
-  // "addons": [
-  //   getAbsolutePath('@storybook/addon-webpack5-compiler-swc'),
-  //   getAbsolutePath('@storybook/addon-essentials'),
-  //   getAbsolutePath('@storybook/addon-onboarding'),
-  //   getAbsolutePath('@chromatic-com/storybook'),
-  //   getAbsolutePath('@storybook/addon-interactions')
-  // ],
-  // "framework": {
-  //   "name": getAbsolutePath('@storybook/react-webpack5'),
-  //   "options": {}
-  // },
-  stories: ['../packages/**/*.stories.js'],
+  "stories": [
+    "../src/**/*.mdx",
+    "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
+  ],
   "addons": [
     getAbsolutePath('@storybook/addon-webpack5-compiler-swc'),
     getAbsolutePath('@storybook/addon-essentials'),
@@ -35,6 +23,18 @@ const config = {
     getAbsolutePath('@chromatic-com/storybook'),
     getAbsolutePath('@storybook/addon-interactions')
   ],
-  framework: '@storybook/react-webpack5',// 添加框架
+  "framework": {
+    "name": getAbsolutePath('@storybook/react-webpack5'),
+    "options": {}
+  },
+  // stories: ['../packages/**/*.stories.js'],
+  // "addons": [
+  //   getAbsolutePath('@storybook/addon-webpack5-compiler-swc'),
+  //   getAbsolutePath('@storybook/addon-essentials'),
+  //   getAbsolutePath('@storybook/addon-onboarding'),
+  //   getAbsolutePath('@chromatic-com/storybook'),
+  //   getAbsolutePath('@storybook/addon-interactions')
+  // ],
+  // framework: '@storybook/react-webpack5',// 添加框架
 };
 export default config;
