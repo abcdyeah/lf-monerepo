@@ -5,6 +5,7 @@
   "ignoreChanges": ["**/node_modules/**", "**/__snapshots__/**"],
   "command": {
     "publish": {
+      "registry": "http://localhost:4873",
       "conventionalCommits": true,
       "message": "[skip ci] chore: release"
     }
