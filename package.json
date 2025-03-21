@@ -16,6 +16,6 @@
     "bootstrap": "lerna bootstrap"
   },
   "publishConfig": {
-    "registry": "http://localhost:4873"
+    "registry": "http://8.141.83.253:4873"
   }
 }
