@@ -4,10 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@lf/libs": "workspace:^",
+    "@lf/libs": "^1.0.1",
     "@mui/material": "^6.4.8",
     "@mui/styles": "^6.4.8",
     "ahooks": "^3.8.4",
     "react": "^19.0.0"
-  }
+  },
+  "gitHead": "1f1981bdc68a71b0c27d543fc5f675a0b75152bf"
 }
