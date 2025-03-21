@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.5](https://github.com/abcdyeah/lf-monerepo/compare/@lf/hooks@1.0.4...@lf/hooks@1.0.5) (2025-03-21)
+
+
+### Bug Fixes
+
+* ui ([e961c09](https://github.com/abcdyeah/lf-monerepo/commit/e961c09396abd7de258cb198c7d36e5e97a53e54))
+
+
+
+
+
 ## [1.0.4](https://github.com/abcdyeah/lf-monerepo/compare/@lf/hooks@1.0.3...@lf/hooks@1.0.4) (2025-03-21)
 
 **Note:** Version bump only for package @lf/hooks
