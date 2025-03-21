@@ -1,18 +1,17 @@
-81 error Error: Command failed with exit code 1: pnpm install --lockfile-only --ignore-scripts
-81 error Scope: all 5 workspace projects
-81 error  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
-81 error Progress: resolved 1, reused 0, downloaded 0, added 0
-81 error Progress: resolved 29, reused 0, downloaded 0, added 0
-81 error /Users/edy/Desktop/yd class资料/工程化/demo实战/lf-monerepo/packages/hooks:
-81 error  ERR_PNPM_FETCH_404  GET https://registry.npmmirror.com/@lf%2Flibs: Not Found - 404
-81 error
-81 error This error happened while installing a direct dependency of /Users/edy/Desktop/yd class资料/工程化/demo实战/lf-monerepo/packages/hooks
-81 error
-81 error @lf/libs is not in the npm registry, or you have no permission to fetch it.
-81 error
-81 error No authorization header was set for the request.
-81 error     at makeError (/Users/edy/Library/pnpm/global/5/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
-81 error     at handlePromise (/Users/edy/Library/pnpm/global/5/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
-81 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-81 error     at async VersionCommand.updatePackageVersions (/Users/edy/Library/pnpm/global/5/.pnpm/lerna@8.2.1_encoding@0.1.13/node_modules/lerna/dist/index.js:9868:11)
-81 error     at async Promise.all (index 0)
+68 error Error: Command failed with exit code 1: pnpm install --lockfile-only --ignore-scripts
+68 error Scope: all 5 workspace projects
+68 error  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
+68 error Progress: resolved 1, reused 0, downloaded 0, added 0
+68 error /Users/edy/Desktop/yd class资料/工程化/demo实战/lf-monerepo/packages/hooks:
+68 error  ERR_PNPM_NO_MATCHING_VERSION  No matching version found for @lf/libs@^1.0.3
+68 error
+68 error This error happened while installing a direct dependency of /Users/edy/Desktop/yd class资料/工程化/demo实战/lf-monerepo/packages/hooks
+68 error
+68 error The latest release of @lf/libs is "1.0.2".
+68 error
+68 error If you need the full list of all 1 published versions run "$ pnpm view @lf/libs versions".
+68 error     at makeError (/Users/edy/Desktop/yd class资料/工程化/demo实战/lf-monerepo/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
+68 error     at handlePromise (/Users/edy/Desktop/yd class资料/工程化/demo实战/lf-monerepo/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
+68 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+68 error     at async VersionCommand.updatePackageVersions (/Users/edy/Desktop/yd class资料/工程化/demo实战/lf-monerepo/node_modules/.pnpm/lerna@8.2.1_@swc+core@1.11.11_babel-plugin-macros@3.1.0_encoding@0.1.13/node_modules/lerna/dist/index.js:9868:11)
+68 error     at async Promise.all (index 0)
