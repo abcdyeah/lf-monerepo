@@ -51,8 +51,8 @@ importers:
   packages/hooks:
     dependencies:
       '@lf/libs':
-        specifier: ^1.0.2
-        version: 1.0.2(typescript@5.8.2)
+        specifier: workspace:*
+        version: link:../libs
       '@mui/material':
         specifier: ^6.4.8
         version: 6.4.8(@types/react@19.0.12)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -962,9 +962,6 @@ packages:
   '@lerna/create@8.2.1':
     resolution: {integrity: sha512-Cz2u/fwc03D1EE6VFZCLMmI8FIUtGmxHQ3ECeNblsxv9i0YSKWe4Xm18sjO1xltG/K5ByiH8/HMeY9dlyAv22A==}
     engines: {node: '>=18.0.0'}
-
-  '@lf/libs@1.0.2':
-    resolution: {integrity: sha512-zDnvpYRvGyMZt+u1jvhxpCXh5NQGCFDadLHGlqbPs1w8Dpsqua5x6qj5uMvGFYH0jJIDe60NOKDO2o2C0AIsjg==}
 
   '@mdx-js/react@3.1.0':
     resolution: {integrity: sha512-QjHtSaoameoalGnKDT3FoIl4+9RwyTmo9ZJGBdLOks/YOiWHoRDI3PUwEzOE7kEmGcV3AFcp9K6dYu9rEuKLAQ==}
@@ -6874,13 +6871,6 @@ snapshots:
       - debug
       - encoding
       - supports-color
-      - typescript
-
-  '@lf/libs@1.0.2(typescript@5.8.2)':
-    dependencies:
-      i18next: 24.2.3(typescript@5.8.2)
-      ramda: 0.30.1
-    transitivePeerDependencies:
       - typescript
 
   '@mdx-js/react@3.1.0(@types/react@19.0.12)(react@19.0.0)':
